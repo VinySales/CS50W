@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Form</title>
+    <meta charset="UTF-8" />
+</head>
+
+<body>
+    <form>
+        <div>
+            <input type="text" placeholder="Nome" name="nome">
+            <input type="password" placeholder="Senha" name="senha">
+        </div>
+        <div>
+            Cor Favorita:
+            <input type="radio" name="color" value="arco"> Azul
+            <input type="radio" name="color" value="amarelo"> Amarelo
+            <input type="radio" name="color" value="vermelho"> Vermelho
+            <input type="radio" name="color" value="preto"> Preto
+        </div>
+        <div>
+            <!-- <select name="carros" id="carros">
+                    <option value="volvo">Volvo</option>
+                    <option value="ferrari">Ferrari</option>
+                    <option value="mercedes">Mercedes</option>
+                    <option value="audi">Audi</option>
+                    <option value="bmw">BMW</option>
+                </select> -->
+
+            <input name="paises" list="paises" placeholder="Países">
+            <datalist id="paises">
+                <option value="Brasil">
+                <option value="Argentina">
+                <option value="França">
+                <option value="Itália">
+                <option value="Egito">
+            </datalist>
+        </div>
+    </form>
+</body>
+
+</html>
